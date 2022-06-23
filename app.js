@@ -23,7 +23,7 @@ const FruitsSchema= mongoose.Schema({
 });
 
 //creating a new document(collection/table) called fruit that obeys fruitsschema model,
-//we will name it singular "Fruit" but mongoose will automatically save it in plural form "fruits" using lodash 
+//we will name it singular "Fruit"(first letter capital and in singular) but mongoose will automatically save it in plural form "fruits" using lodash 
 const Fruit =mongoose.model("Fruit",FruitsSchema);
 
 //putting value of row 1 elements as jsobjects
